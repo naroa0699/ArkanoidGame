@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!--
+        Este FrameLayout actúa como contenedor.
+        El GameView (SurfaceView) se añade programáticamente
+        desde MainActivity para tener control total sobre
+        su inicialización con las dimensiones de pantalla.
+    -->
+
+</FrameLayout>
